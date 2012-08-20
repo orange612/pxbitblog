@@ -1,0 +1,26 @@
+body {
+	background: #fefefe;
+	margin: 0;
+	padding: 0;
+}
+
+
+header.bigasspic { 
+	background: url('../img/bigassimg.jpeg') no-repeat top center;
+	height: 450px;
+resize:both;
+overflow:auto;
+}
+.barcontainer {
+	background: #fefefe url('../img/texture.png') repeat-x;
+	width: 960px;
+	height: 50px;
+	margin: auto;
+	border-radius: 0 0 10px 10px;
+
+}
+
+.maincontainer {
+	width: 960px;
+	margin: auto;
+}
