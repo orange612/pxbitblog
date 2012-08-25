@@ -1,12 +1,10 @@
 body {
   background: #FEFEFE url('../img/texture.png') repeat;
   color: #272727;
-  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-family: 'Verdana', Geneva, Arial, Helvetica, sans-serif;
   font-size: 12px;
 	margin: 0;
 	padding: 0;
-
-
 }
 
 a {
@@ -127,8 +125,8 @@ h3 {
 .teaser-image {
   float: right;
   margin: 7px 0 20px 15px;
-  -webkit-border-radius: 5px; 
-          border-radius: 5px;
+  -webkit-border-radius: 5px;
+            border-radius: 5px;
 }
 
 .teaser .title {
@@ -185,6 +183,8 @@ h3 {
 
 .list img {
   padding-left: 0;
+  -webkit-border-radius: 5px; 
+          border-radius: 5px;
 }
 
 #minus33 {
@@ -209,7 +209,7 @@ h3 {
  *           FOOTER
  *---------------------------------------------------------------------------*/
 .footer {
-  margin: 0 0 0 267px;
+  margin: auto;
   width: 900px;
 }
    
@@ -254,3 +254,5 @@ h3 {
   font-style: italic;
   padding: 15px 13px;
 }
+
+
