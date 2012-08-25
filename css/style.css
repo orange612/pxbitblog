@@ -1,10 +1,12 @@
 body {
-	background: #FEFEFE;
+  background: #FEFEFE url('../img/texture.png') repeat;
   color: #272727;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-size: 12px;
 	margin: 0;
 	padding: 0;
+
+
 }
 
 a {
@@ -55,12 +57,12 @@ h1,
 h2,
 h3 {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 /* transparent backgrounds */
 .alpha-bg {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.85);
 }
  
 /* Round corners */
@@ -72,7 +74,7 @@ h3 {
 /*-----------------------------------------------------------------------------
  *           HEADER            
  *---------------------------------------------------------------------------*/
-.brand {
+.logo {
   float: left;
 }
  
@@ -81,20 +83,20 @@ h3 {
 }
 
 .navigation a {
-  padding: 11px 18px;
+  padding: 8px 18px;
 }
 
 .navigation a:hover  {
   background: #13A89E;
   color: #FFF;
-  -webkit-border-radius: 8px; 
-          border-radius: 8px;
+  -webkit-border-radius: 5px; 
+          border-radius: 5px;
 }
 
 /* Header content */
 .header-content {
   margin: 0 auto;
-  width: 960px;
+  width: 900px;
 }
  
 /* Columns */
@@ -110,11 +112,12 @@ h3 {
 
 /* Teaser */
 .teaser {
-  -webkit-border-radius: 8px; 
-          border-radius: 8px;
-  margin: 50px;
-  padding: 22px 29px;
-  width: 480px;
+  -webkit-border-radius: 10px; 
+          border-radius: 10px;
+  margin: 50px 48px 50px 50px;
+  padding: 23px 30px 0 30px;
+  width: 420px;
+  height: 277px;
 }
  
 .teaser p {
@@ -123,20 +126,22 @@ h3 {
 
 .teaser-image {
   float: right;
-  margin-bottom: 222x;
-  margin-left: 15px;
+  margin: 7px 0 20px 15px;
+  -webkit-border-radius: 5px; 
+          border-radius: 5px;
 }
 
 .teaser .title {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 30px;
-  letter-spacing: 0;
+  letter-spacing: -1px;
 }
 
-.video,
 .social {
-  padding: 20px;
+  padding: 5px 30px 2px 30px;
   margin-bottom: 10px;
+    -webkit-border-radius: 5px; 
+          border-radius: 5px;
 }
  
 /*-----------------------------------------------------------------------------
@@ -144,7 +149,7 @@ h3 {
  *---------------------------------------------------------------------------*/
 .bigasspic { 
 	background: url('../img/bigassimg.jpeg') no-repeat top center;
-	height: 534px;
+	height: 450px;
   resize: both;
   overflow: auto;
 }
@@ -158,8 +163,9 @@ h3 {
 	border-radius: 0 0 10px 10px;
   font-size: 12px;
 	margin: auto;
-  padding: 7px 22px;
-	width: 916px;
+  padding: 9px 22px 0 22px;
+ 	width: 856px;
+  height: 41px;
 }
 
 /*-----------------------------------------------------------------------------
@@ -167,24 +173,31 @@ h3 {
  *---------------------------------------------------------------------------*/
 .maincontainer {
 	margin: auto;
-  padding: 50px 60px 0;
-	width: 960px;
+  padding: 0;
+	width: 900px;
+
 }
 
 .list li {
-  margin-bottom: 36px;
-  margin-right: 26px;
+  margin: 50px 33px 0 0 ;
   float: left;
 }
- 
+
 .list img {
-  padding-left: 7px;
+  padding-left: 0;
 }
 
+#minus33 {
+  margin: 50px -33px 0 0;
+}
+
+#minus332 {
+  margin: 50px -33px 50px 0;
+}
 .list .caption {
   text-align: center;
   color: #13A89E;
-  padding: 11px 0;
+  padding: 9px 0;
   font-size: 13px;
 }
  
@@ -197,7 +210,7 @@ h3 {
  *---------------------------------------------------------------------------*/
 .footer {
   margin: 0 0 0 267px;
-  width: 960px;
+  width: 900px;
 }
    
 .loveblock {
