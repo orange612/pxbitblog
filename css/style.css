@@ -1,26 +1,243 @@
 body {
-	background: #fefefe;
+	background: #FEFEFE;
+  color: #272727;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;
 	margin: 0;
 	padding: 0;
 }
 
+a {
+  color: #272727;
+  text-decoration: none;
+}
 
-header.bigasspic { 
+p {
+  margin: 0 0 10px;
+  line-height: 1.5;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/*-----------------------------------------------------------------------------
+ *           SHARED
+ *---------------------------------------------------------------------------*/
+/* nav inline */
+.nav {
+  list-style: none;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+}
+
+/* clearfix */
+.cf::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* transparent backgrounds */
+.alpha-bg {
+  background: rgba(255, 255, 255, 0.6);
+}
+ 
+/* Round corners */
+.round-corners {
+  -webkit-border-radius: 8px; 
+          border-radius: 8px;
+}
+ 
+/*-----------------------------------------------------------------------------
+ *           HEADER            
+ *---------------------------------------------------------------------------*/
+.brand {
+  float: left;
+}
+ 
+.navigation  {
+  float: right;
+}
+
+.navigation a {
+  padding: 11px 18px;
+}
+
+.navigation a:hover  {
+  background: #13A89E;
+  color: #FFF;
+  -webkit-border-radius: 8px; 
+          border-radius: 8px;
+}
+
+/* Header content */
+.header-content {
+  margin: 0 auto;
+  width: 960px;
+}
+ 
+/* Columns */
+.column-first {
+  float: left;
+}
+ 
+.column-second {
+  float: left;
+  margin-top: 50px;
+  width: 300px;
+}
+
+/* Teaser */
+.teaser {
+  -webkit-border-radius: 8px; 
+          border-radius: 8px;
+  margin: 50px;
+  padding: 22px 29px;
+  width: 480px;
+}
+ 
+.teaser p {
+  text-align: justify;
+}
+
+.teaser-image {
+  float: right;
+  margin-bottom: 222x;
+  margin-left: 15px;
+}
+
+.teaser .title {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  letter-spacing: 0;
+}
+
+.video,
+.social {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+ 
+/*-----------------------------------------------------------------------------
+ *           PIC            
+ *---------------------------------------------------------------------------*/
+.bigasspic { 
 	background: url('../img/bigassimg.jpeg') no-repeat top center;
-	height: 450px;
-resize:both;
-overflow:auto;
+	height: 534px;
+  resize: both;
+  overflow: auto;
 }
+
+/*-----------------------------------------------------------------------------
+ *           BAR            
+ *---------------------------------------------------------------------------*/
+
 .barcontainer {
-	background: #fefefe url('../img/texture.png') repeat-x;
-	width: 960px;
-	height: 50px;
-	margin: auto;
+	background: #FEFEFE url('../img/texture.png') repeat-x;
 	border-radius: 0 0 10px 10px;
-
+  font-size: 12px;
+	margin: auto;
+  padding: 7px 22px;
+	width: 916px;
 }
 
+/*-----------------------------------------------------------------------------
+ *           CONTENT
+ *---------------------------------------------------------------------------*/
 .maincontainer {
-	width: 960px;
 	margin: auto;
+  padding: 50px 60px 0;
+	width: 960px;
+}
+
+.list li {
+  margin-bottom: 36px;
+  margin-right: 26px;
+  float: left;
+}
+ 
+.list img {
+  padding-left: 7px;
+}
+
+.list .caption {
+  text-align: center;
+  color: #13A89E;
+  padding: 11px 0;
+  font-size: 13px;
+}
+ 
+.list .caption:hover {
+  text-align: center;
+  color: #EC8C92;
+}
+/*-----------------------------------------------------------------------------
+ *           FOOTER
+ *---------------------------------------------------------------------------*/
+.footer {
+  margin: 0 0 0 267px;
+  width: 960px;
+}
+   
+.loveblock {
+  background: url(../img/heart.png) no-repeat left 5px;
+  float: left;
+  margin-right: 21px;
+  padding: 0 0 10px 70px;
+  width: 285px;
+}
+
+.mailform {
+  float: left;
+}
+ 
+.mailform div {
+  float: left;
+}
+
+.mailform .form-text {
+  background: #F0F0F0;
+  border: none;
+  -webkit-border-radius: 8px; 
+          border-radius: 8px; 
+  color: #B1B1B1;
+  padding: 18px 10px;
+  width: 280px;
+}
+
+.mailform .item-2 {
+  position: relative;
+  right: 58px;
+  top: 3px;
+}
+
+.mailform .form-submit {
+  background: #13A89E;
+  border: none;
+  -webkit-border-radius: 8px; 
+          border-radius: 8px;
+  color: #FFF;
+  font-style: italic;
+  padding: 15px 13px;
 }
